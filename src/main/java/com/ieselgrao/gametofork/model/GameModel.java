@@ -8,7 +8,7 @@ public class GameModel {
     // Usamos Properties para que las etiquetas de la UI se actualicen automáticamente
     private final IntegerProperty score = new SimpleIntegerProperty(0);
     private final IntegerProperty lives = new SimpleIntegerProperty(3);
-    private static final int MAX_LIVES = 3;
+    private static final int MAX_LIVES = 5;
 
     public int getScore() { return score.get(); }
     public IntegerProperty scoreProperty() { return score; }
